@@ -24,5 +24,3 @@ RUN choco install ant -i -y
 
 ENTRYPOINT ["powershell"]
 
-#docker run -v C:\Users\rafaelpolo\workspace:c:/workspace -v C:\bea:c:/bea -v C:\psj:c:/psj -v C:\s1_server_files:c/s1_server_files --workdir /workspace/PopularTrunk/psj demopopular:v3 ant -buildfile build-pt.xml
-#docker cp 845ace920e35:C:/EntregaPB-PT C:\RPOLO\prueba
